@@ -1,0 +1,44 @@
+html,body,div,span,h1,h2,p,em,img,ul,li,footer,header{
+	margin:0;
+	padding:0;
+	border:0;
+    font-size:100%;
+    font-family: "Helvetica";
+}
+
+#title{
+	display: block;
+	text-align: center;
+	margin: 14px 0 28px 0;
+	font-size: 22px;
+}
+
+#content{
+	position: relative;
+	left: 50%;
+	margin-left: -210px;
+	width: 380px;
+	height: 160px;
+	border: 2px solid #e678b1;
+	background-color: #fff0f5;
+	padding: 40px 20px;
+}
+
+#content p{
+	margin-bottom: 22px;
+}
+
+#content ul{
+	text-align: left;
+	margin-left: 45px;
+}
+
+#content .highlight{
+	background-color: #fff93b;
+}
+
+#link{
+	display: block;
+	text-align: center;
+	margin-top: 22px;
+}
